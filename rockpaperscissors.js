@@ -46,4 +46,4 @@ function playGame(player,computer){
 
 console.log(computer + " : Computers Choice");
 console.log(person + " : Player Choice");
-console.log(playGame(person,computer));
+console.log(playGame(person.toLowerCase(),computer.toLowerCase()));
