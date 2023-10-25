@@ -42,7 +42,7 @@ function playGame(player,computer){
             computerScore++;
             personScore++;
             return "It's a tie! Both players chose Scissors"
-        } else if (computer == "paper") {
+        } else if (computer == "rock") {
             computerScore++;
             return "You lose! Rock beats Scissors"
         } else {
